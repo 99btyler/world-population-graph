@@ -1,7 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
-import WorldPopulationGraph from "./component/WorldPopulationGraph"
+import WorldPopulationGraph from "./component/WorldPopulationGraph.js"
 
 import "./index.css"
 

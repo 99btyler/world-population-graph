@@ -1,6 +1,7 @@
 import React from "react"
 
 import Footer from "./components/Footer.js"
+import Graph from "./components/graph/Graph.js"
 import Header from "./components/Header.js"
 
 class WorldPopulationGraph extends React.Component {
@@ -10,6 +11,7 @@ class WorldPopulationGraph extends React.Component {
 
             <div>
                 <Header />
+                <Graph />
                 <Footer />
             </div>
 

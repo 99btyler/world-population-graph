@@ -1,0 +1,12 @@
+#graph {
+    position: relative;
+    max-width: 800px;
+    height: 400px;
+    display: flex;
+}
+
+#graphdivider-container {
+    position: relative;
+    width: 88%;
+    background: yellow;
+}

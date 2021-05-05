@@ -1,0 +1,8 @@
+#graphdivider {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 2px;
+    background: red;
+    left: 10%;
+}

@@ -1,5 +1,6 @@
 import React from "react"
 
+import GraphBar from "./parts/GraphBar.js"
 import GraphCountryNames from "./parts/GraphCountryNames.js"
 import GraphDivider from "./parts/GraphDivider.js"
 
@@ -14,6 +15,7 @@ function Graph() {
             <GraphCountryNames />
 
             <div id="graphdivider-container">
+
                 <GraphDivider left="10%" />
                 <GraphDivider left="20%" />
                 <GraphDivider left="30%" />
@@ -23,6 +25,12 @@ function Graph() {
                 <GraphDivider left="70%" />
                 <GraphDivider left="80%" />
                 <GraphDivider left="90%" />
+
+                <GraphBar width="55%" />
+                <GraphBar width="16%" />
+                <GraphBar width="71%" />
+                <GraphBar width="78%" />
+
             </div>
 
         </div>

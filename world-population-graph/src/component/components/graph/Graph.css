@@ -5,7 +5,7 @@
     display: flex;
 }
 
-#graphdivider-container {
+#graph-content {
     position: relative;
     width: 88%;
     background-color: #dfdfdf;

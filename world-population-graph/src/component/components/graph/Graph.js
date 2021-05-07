@@ -14,7 +14,7 @@ function Graph() {
 
             <GraphCountryNames />
 
-            <div id="graphdivider-container">
+            <div id="graph-content">
 
                 <GraphDivider left="10%" />
                 <GraphDivider left="20%" />

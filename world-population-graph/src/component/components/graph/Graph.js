@@ -16,15 +16,7 @@ function Graph(props) {
 
             <div id="graph-content">
 
-                <GraphDivider left="10%" />
-                <GraphDivider left="20%" />
-                <GraphDivider left="30%" />
-                <GraphDivider left="40%" />
-                <GraphDivider left="50%" />
-                <GraphDivider left="60%" />
-                <GraphDivider left="70%" />
-                <GraphDivider left="80%" />
-                <GraphDivider left="90%" />
+                {getGraphDividers()}
 
                 {getGraphBarsFromData(props.data)}
 
@@ -33,6 +25,18 @@ function Graph(props) {
         </div>
 
     )
+}
+
+function getGraphDividers() {
+    
+    const graphDividers = []
+
+    for (var i = 10; i < 100; i+= 10) {
+        graphDividers.push(<GraphDivider left={i + "%"} />)
+    }
+
+    return graphDividers
+
 }
 
 function getGraphBarsFromData(data) {

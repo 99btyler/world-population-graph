@@ -6,7 +6,7 @@ import GraphDivider from "./parts/GraphDivider.js"
 
 import "./Graph.css"
 
-function Graph() {
+function Graph(props) {
 
     return (
 
@@ -26,16 +26,17 @@ function Graph() {
                 <GraphDivider left="80%" />
                 <GraphDivider left="90%" />
 
-                <GraphBar width="55%" />
-                <GraphBar width="16%" />
-                <GraphBar width="71%" />
-                <GraphBar width="78%" />
+                {getGraphBarsFromData(props.data)}
 
             </div>
 
         </div>
 
     )
+}
+
+function getGraphBarsFromData(data) {
+    return data.map((country) => <GraphBar width={((country.population / 2000000000) * 100) + "%"} />)
 }
 
 export default Graph

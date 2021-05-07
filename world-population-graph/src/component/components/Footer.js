@@ -3,7 +3,7 @@ import React from "react"
 function Footer() {
     return (
 
-        <p>race you to 1 billion!</p>
+        <p>race you to 2 billion!</p>
 
     )
 }

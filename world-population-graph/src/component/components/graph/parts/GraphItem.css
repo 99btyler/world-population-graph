@@ -1,0 +1,14 @@
+#graphitem {
+    display: flex;
+    padding: 20px;
+}
+
+#graphitem p {
+    width: 10%;
+    text-align: center;
+}
+
+#graphitem div {
+    border: 1px solid #202020;
+    background-color: #FFFFFF;
+}

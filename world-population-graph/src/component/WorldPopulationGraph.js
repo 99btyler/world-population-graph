@@ -9,16 +9,16 @@ class WorldPopulationGraph extends React.Component {
     state = {
         data: [
             {
-                name: "China",
-                population: 1400000000
+                countryName: "China",
+                countryPopulation: 1400000000
             },
             {
-                name: "India",
-                population: 1300000000
+                countryName: "India",
+                countryPopulation: 1300000000
             },
             {
-                name: "United States",
-                population: 300000000
+                countryName: "United States",
+                countryPopulation: 300000000
             }
         ]
     }

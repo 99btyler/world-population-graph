@@ -18,7 +18,7 @@ function Graph(props) {
 
                 {getGraphDividers()}
 
-                {getGraphBarsFromData(props.data)}
+                {getGraphBars(props.data)}
 
             </div>
 
@@ -39,7 +39,7 @@ function getGraphDividers() {
 
 }
 
-function getGraphBarsFromData(data) {
+function getGraphBars(data) {
     return data.map((country) => <GraphBar width={((country.population / 2000000000) * 100) + "%"} />)
 }
 

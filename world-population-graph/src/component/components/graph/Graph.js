@@ -17,7 +17,7 @@ function Graph(props) {
 }
 
 function getGraphItems(data) {
-    return data.map(item => <GraphItem countryName={item.countryName} width={(((item.countryPopulation / 2000000000) * 100) - 10) + "%"} />)
+    return data.map(item => <GraphItem countryName={item.countryName} width={(((item.countryPopulation / 1400000000) * 100) - 10) + "%"} />)
 }
 
 export default Graph

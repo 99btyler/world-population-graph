@@ -3,12 +3,22 @@
     padding: 1px 20px;
 }
 
-#graphitem p {
+#graphitem-countryname {
     width: 10%;
     text-align: center;
 }
 
-#graphitem div {
+#graphitem-countrypopulation-bar {
+    position: relative;
     border: 1px solid #202020;
     background-color: #FFFFFF;
+}
+
+#graphitem-countrypopulation {
+    position: absolute;
+    top: 13px;
+    left: 15px;
+    padding: 5px;
+    font-size: 10px;
+    background-color: #fff456;
 }

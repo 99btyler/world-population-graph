@@ -4,23 +4,12 @@ import Footer from "./components/Footer.js"
 import Graph from "./components/graph/Graph.js"
 import Header from "./components/Header.js"
 
+import { countryData } from "./countryData.js"
+
 class WorldPopulationGraph extends React.Component {
 
     state = {
-        data: [
-            {
-                countryName: "China",
-                countryPopulation: 1400000000
-            },
-            {
-                countryName: "India",
-                countryPopulation: 1300000000
-            },
-            {
-                countryName: "United States",
-                countryPopulation: 300000000
-            }
-        ]
+        data: countryData
     }
 
     render() {

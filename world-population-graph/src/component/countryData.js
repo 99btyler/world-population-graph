@@ -57,7 +57,7 @@ export const countryData = [
     },
     {
       "countryName": "Congo",
-      "countryPopulation": "Democratic Republic of the"
+      "countryPopulation": 105044646
     },
     {
       "countryName": "Vietnam",
@@ -109,7 +109,7 @@ export const countryData = [
     },
     {
       "countryName": "Korea",
-      "countryPopulation": "South"
+      "countryPopulation": 51715162
     },
     {
       "countryName": "Colombia",
@@ -213,7 +213,7 @@ export const countryData = [
     },
     {
       "countryName": "Korea",
-      "countryPopulation": "North"
+      "countryPopulation": 25831360
     },
     {
       "countryName": "Australia",
@@ -473,7 +473,7 @@ export const countryData = [
     },
     {
       "countryName": "Congo",
-      "countryPopulation": "Republic of the"
+      "countryPopulation": 5417414
     },
     {
       "countryName": "Central African Republic",
@@ -581,7 +581,7 @@ export const countryData = [
     },
     {
       "countryName": "Gambia",
-      "countryPopulation": "The"
+      "countryPopulation": 2221301
     },
     {
       "countryName": "Lesotho",
@@ -705,7 +705,7 @@ export const countryData = [
     },
     {
       "countryName": "Bahamas",
-      "countryPopulation": "The"
+      "countryPopulation": 352655
     },
     {
       "countryName": "Vanuatu",
@@ -765,7 +765,7 @@ export const countryData = [
     },
     {
       "countryName": "Micronesia",
-      "countryPopulation": "Federated States of"
+      "countryPopulation": 101675
     },
     {
       "countryName": "Jersey",
@@ -889,7 +889,7 @@ export const countryData = [
     },
     {
       "countryName": "Saint Helena",
-      "countryPopulation": "Ascension"
+      "countryPopulation": 7915
     },
     {
       "countryName": "Saint Barthelemy",

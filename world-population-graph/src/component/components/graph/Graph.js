@@ -1,6 +1,6 @@
 import React from "react"
 
-import GraphItem from "./parts/GraphItem.js"
+import GraphItem from "./GraphItem.js"
 
 import "./Graph.css"
 

@@ -1,3 +1,5 @@
+import PropTypes from "prop-types"
+
 import "./GraphItem.css"
 
 const GraphItem = ({ countryName, countryPopulation }) => {
@@ -21,6 +23,11 @@ const GraphItem = ({ countryName, countryPopulation }) => {
         </div>
 
     )
+}
+
+GraphItem.propTypes = {
+    countryName: PropTypes.string.isRequired,
+    countryPopulation: PropTypes.string.isRequired
 }
 
 export default GraphItem

@@ -3,8 +3,6 @@
 
 # Getting Started
 Get this project set up locally
-### Prerequisites
-* Have React dependencies
 ### Setting up
 * Clone this repository
 * Using terminal, navigate to (repository)/world-population-graph and type `npm install`

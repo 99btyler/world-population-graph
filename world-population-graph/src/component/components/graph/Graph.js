@@ -1,15 +1,13 @@
-import React from "react"
-
 import GraphItem from "./GraphItem.js"
 
 import "./Graph.css"
 
-function Graph(props) {
+const Graph = ({ data }) => {
     return (
 
         <div id="graph">
 
-            {getGraphItems(props.data)}
+            {getGraphItems(data)}
 
         </div>
 

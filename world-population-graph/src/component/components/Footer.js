@@ -1,6 +1,5 @@
-import React from "react"
 
-function Footer() {
+const Footer = () => {
     return (
 
         <p>race you to 2 billion!</p>

@@ -1,13 +1,8 @@
-import React from "react"
-
 import "./GraphItem.css"
 
-function GraphItem(props) {
+const GraphItem = ({ countryName, countryPopulation }) => {
 
-    const countryName = props.countryName
-
-    const countryPopulationAsString = props.countryPopulation
-    const countryPopulationAsInt = parseInt(props.countryPopulation.replaceAll(",", ""))
+    const countryPopulationAsInt = parseInt(countryPopulation.replaceAll(",", ""))
 
     return (
 
@@ -19,7 +14,7 @@ function GraphItem(props) {
             <div id="graphitem-countrypopulation-bar" style={{width: (((countryPopulationAsInt / 1400000000) * 100) - 10) + "%"}}>
 
                 { /* Country's population */ }
-                <div id="graphitem-countrypopulation">{countryPopulationAsString}</div>
+                <div id="graphitem-countrypopulation">{countryPopulation}</div>
 
             </div>
 

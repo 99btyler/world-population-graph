@@ -29,5 +29,4 @@ GraphItem.propTypes = {
     countryName: PropTypes.string.isRequired,
     countryPopulation: PropTypes.string.isRequired
 }
-
 export default GraphItem

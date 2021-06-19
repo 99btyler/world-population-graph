@@ -23,5 +23,4 @@ function getGraphItems(data) {
 Graph.propTypes = {
     data: PropTypes.array.isRequired
 }
-
 export default Graph

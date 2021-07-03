@@ -2,7 +2,9 @@
 const Footer = () => {
     return (
 
-        <p>race you to 2 billion!</p>
+        <footer>
+            <p>race you to 2 billion!</p>
+        </footer>
 
     )
 }
